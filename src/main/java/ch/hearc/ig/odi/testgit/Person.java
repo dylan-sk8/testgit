@@ -6,6 +6,7 @@ public class Person {
     private String firstName;
     private String lastName;
     private Date birthDate;
+    private Enterprise enterprise;
 
     public Person(String firstName, String lastName, Date birthDate) {
         this.firstName = firstName;
