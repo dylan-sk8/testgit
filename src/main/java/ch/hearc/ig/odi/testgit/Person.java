@@ -7,6 +7,7 @@ public class Person {
     private String lastName;
     private Date birthDate;
     private Enterprise enterprise;
+    private Address address;
 
     public Person(String firstName, String lastName, Date birthDate) {
         this.firstName = firstName;
